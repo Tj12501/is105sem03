@@ -1,6 +1,6 @@
 package mycrypt
 
-var ALF_SEM03 []rune = []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJLMOPQRTUVWXYZ0123456789.,:; KSN")
+var ALF_SEM03 []rune = []rune("abcdefghijklmnopqrstuvwxyzæøåABCDEFGHIJLMOPQRTUVWXYZÆØÅ0123456789.,:; KSN")
 
 func Krypter(melding []rune, alphabet []rune, chiffer int) []rune {
 	kryptertMelding := make([]rune, len(melding))
